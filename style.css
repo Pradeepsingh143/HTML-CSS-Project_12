@@ -74,6 +74,7 @@ body {
     padding: 14px 42px;
     background-color: var(--buttonBgColor);
     color: var(--buttonColor);
+    cursor: pointer;
 }
 
 .graident-btn {

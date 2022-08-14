@@ -423,26 +423,52 @@ object-position: 50% 20%;
 .footer-section{
     background-color: var(--secondaryColor);
     color: var(--textSecondryColor);
+    padding: 50px 0;
 }
 
 .footer-top{
-    padding-top: 50px;
     padding-bottom: 40px;
     border-bottom: 1px solid #ffffff31;
 }
 
 .footer-social-icon{
-    gap: 10px;
-    align-items: center;
+    gap: 15px;
 }
 
 .footer-icon{
-    background-color: var(--primaryColor);
+    background-color: #ffffff58;
     text-decoration: none;
     color: var(--textSecondryColor);
-    box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.5) inset;
--webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.5) inset;
--moz-box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.5) inset;
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.213) inset;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.213) inset;
+-moz-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.213) inset;
     border-radius: 50%;
-    padding: 15px;
+    padding: 12px 16px;
+}
+
+.footer-icon:hover{
+    background-color: #ffffffdc;
+    color: var(--secondaryColor);
+}
+
+.footer-links h3{ 
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.footer-links{
+    margin-top: 30px;
+}
+
+.footer-links ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-links ul > li{
+    list-style: none;
+    margin-top: 18px;
+    font-size: 16px;
+    opacity: 0.7;
 }

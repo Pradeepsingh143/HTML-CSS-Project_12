@@ -1,31 +1,60 @@
 @media only screen and (max-width: 1180px) {
-      /* header-section */
-  .hero-img{
+  /* header-section */
+  .hero-img {
     width: 400px;
     height: 460px;
     object-fit: cover;
-}
+  }
 
-
-.hero-heading > h1 { 
+  .hero-heading > h1 {
     font-size: 56px;
     line-height: 60px;
-}
+  }
 
-.hero-heading > p { 
+  .hero-heading > p {
     font-size: 17px;
-}
+  }
 
-.input-form{
+  .input-form {
     position: relative;
     width: 450px;
+  }
+
+  /* section-2 */
+
+  .section-2 > h1 {
+    font-size: 42px;
+    width: 600px;
+  }
+
+  .sucess-number > h2 {
+    font-size: 32px;
+  }
+
+  .sucess-number > p {
+    font-size: 16px;
+  }
+
+  .section-2 > img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 20px;
+  }
+
+  /* section-3 */
+
+.about-section > h1{
+    font-size: 42px;
 }
 }
 
 @media only screen and (max-width: 1024px) {
   /* navbar */
 
-  #logo, .footer-logo {
+  #logo,
+  .footer-logo {
     width: 100px;
     filter: invert(1);
   }
@@ -43,40 +72,96 @@
     letter-spacing: 1px;
   }
 
-       /* header-section */
-       .hero-img{
-        width: 360px;
-        height: 420px;
-        object-fit: cover;
-    }
-    
-    
-    .hero-heading > h1 { 
-        font-size: 42px;
-        line-height: 55px;
-        margin: 20px 0;
-    }
+  /* header-section */
+  .hero-img {
+    width: 360px;
+    height: 420px;
+    object-fit: cover;
+  }
+  .hero-heading > h1 {
+    font-size: 42px;
+    line-height: 55px;
+    margin: 20px 0;
+  }
+  .hero-heading > p {
+    font-size: 16px;
+  }
+  .input-form {
+    position: relative;
+    width: 400px;
+  }
 
-    .hero-heading > p { 
-        font-size: 16px;
-    }
+  /* section-2 */
 
-    .input-form{
-        position: relative;
-        width: 400px;
-    }
+.section-2>h1{
+    font-size: 38px;
+    width: 600px;
+}
+
+.sucess-number > h2{
+    font-size: 30px;
+}
+
+.sucess-number > p{
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.section-2 > img{
+    width: 100%;
+    height: 500px;
+}
+
+   /* section-3 */
+
+.about-section > h1{
+    font-size: 38px;
+    line-height: 40px;
+}
+
+/* container-1 */
+
+.about-container-1 > .left-col > h1{
+    font-size: 36px;
+}
+
+.about-container-1 > .right-col > img{
+width:400px;
+height: 400px;
+}
+
+/* about-container-2 */
+.about-container-2 > .left-col > img{
+    width: 400px;
+    height: 400px;
+}
+
+.about-container-2 > .right-col > h1{
+    font-size: 36px;
+}
+
+/* container-3 */
+
+.about-container-3 > .left-col > h1{
+    font-size: 36px;
+}
+
+.about-container-3 > .right-col > img{
+width:400px;
+height: 400px;
+}
 }
 
 @media only screen and (max-width: 900px) {
-    .md-flex-col{
-        flex-direction: column;
-    }
-    .md-flex-col-reverse{
-        flex-direction: column-reverse;
-    }
-    .md-col-w100{
-        width: 100%;
-    }
+  .md-flex-col {
+    flex-direction: column;
+  }
+  .md-flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+  .md-col-w100 {
+    width: 100%;
+  }
 
   /* navbar */
   .nav-items {
@@ -95,11 +180,78 @@
   .hero-container {
     padding-top: 30px;
     padding-bottom: 50px;
-}
+  }
 
-  .hero-heading{
+  .hero-heading {
     text-align: center;
   }
+
+ /* section-3 */
+
+.about-section > h1{
+    font-size: 42px;
+    line-height: 36px;
+    width: 100%;
+}
+
+/* section-3 */
+/* container-1 */
+
+.about-container-1 > .left-col{
+    padding-right: 0px;
+}
+
+.about-container-1 > .left-col > h1{
+    font-size: 36px;
+}
+
+.about-container-1 > .right-col{
+    justify-content: center;
+}
+
+.about-container-1 > .right-col > img{
+width: 100%;
+height: 450px;
+}
+
+/* about-container-2 */
+.about-container-2{
+    margin-top: 50px;
+}
+
+.about-container-2 > .left-col > img{
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+}
+
+.about-container-2 > .right-col > h1{
+    font-size: 36px;
+}
+
+/* container-3 */
+
+.about-container-3{
+    margin-top: 50px;
+}
+
+.about-container-3 > .left-col{
+    padding-right: 0px;
+}
+
+.about-container-3 > .left-col > h1{
+    font-size: 36px;
+}
+
+.about-container-3 > .right-col{
+    justify-content: center;
+}
+
+.about-container-3 > .right-col > img{
+width: 100%;
+height: 450px;
+}
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -114,64 +266,175 @@
     display: flex;
   }
 
-    /* header-section */
-    .hero-img{
-        width: 320px;
+  /* header-section */
+  .hero-img {
+    width: 320px;
+    height: 350px;
+  }
+  .hero-heading > h1 {
+    font-size: 32px;
+  }
+  .input-form {
+    position: relative;
+    width: 300px;
+  }
+  input[type="email"]::placeholder {
+    font-size: 13px;
+  }
+  input[type="submit"] {
+    position: absolute;
+    width: 90px;
+    height: 42px;
+    font-size: 12px;
+  }
+
+    /* section-2 */
+
+    .section-2 > h1 {
+        font-size: 36px;
+        width: 100%;
+      }
+    
+      .sucess-number > h2 {
+        font-size: 26px;
+      }
+    
+      .sucess-number > p {
+        font-size: 15px;
+      }
+    
+      .section-2 > img {
+        width: 100%;
+        height: auto;
+      }
+
+  /* section-3 */
+
+  .about-section > h1{
+    font-size: 36px;
+}
+
+.about-container-1 > .right-col > img{
+    width: 100%;
+    height: 350px;
+    }
+
+    .about-container-2 > .left-col > img{
+        width: 100%;
         height: 350px;
+        justify-content: center;
     }
-    .hero-heading > h1 { 
-        font-size: 32px;
-    }
-    .input-form{
-        position: relative;
-        width: 300px;
-    }
-    input[type='email']::placeholder{
-        font-size: 13px;
-    }
-    input[type='submit']{
-        position: absolute;
-        width: 90px;
-        height: 42px;
-        font-size: 12px;
-    }
+    .about-container-3 > .right-col > img{
+        width: 100%;
+        height: 350px;
+        }
 }
 
 @media only screen and (max-width: 480px) {
+  /* header-section */
+  .hero-img {
+    width: 320px;
+    height: 380px;
+    object-fit: cover;
+  }
 
-         /* header-section */
-         .hero-img{
-            width: 320px;
-            height: 380px;
-            object-fit: cover;
-        }
-        
-        
-        .hero-heading > h1 { 
-            font-size: 36px;
-            line-height: 50px;
-        }
+  .hero-heading > h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .hero-heading > p {
+    font-size: 15px;
+  }
+
+  .input-form {
+    position: relative;
+    width: 300px;
+  }
+
+  input[type="email"]::placeholder {
+    font-size: 12px;
+  }
+
+  input[type="submit"] {
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+      /* section-2 */
+
+      .section-2 > h1 {
+        font-size: 28px;
+        line-height: 40px;
+        width: 100%;
+      }
     
-        .hero-heading > p { 
-            font-size: 15px;
-        }
+      .sucess-number > h2 {
+        font-size: 22px;
+      }
     
-        .input-form{
-            position: relative;
-            width: 300px;
-        }
+      .sucess-number > p {
+        font-size: 14px;
+      }
+    
+      .section-2 > img {
+        width: 100%;
+        height: auto;
+      }
 
-        input[type='email']::placeholder{
-            font-size: 12px;
-        }
+  /* section-3 */
 
-        input[type='submit']{
-            position: absolute;
-            width: 110px;
-            height: 40px;
-            font-size: 14px;
+  .about-section > h1{
+    font-size: 28px;
+}
+
+.about-container-1 > .right-col > img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    }
+
+    .about-container-2 > .left-col > img{
+        width: 100%;
+        height: 300px;
+        justify-content: center;
+        object-fit: cover;
+    }
+    .about-container-3 > .right-col > img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
         }
 }
 
 @media only screen and (max-width: 320px) {
+
+          /* section-2 */
+
+          .section-2 > h1 {
+            font-size: 22px;
+            line-height: 40px;
+            width: 100%;
+          }
+        
+          .sucess-number > h2 {
+            font-size: 18px;
+          }
+        
+          .sucess-number > p {
+            font-size: 13px;
+          }
+        
+          .section-2 > img {
+            width: 100%;
+            height: auto;
+          }
+
+      /* section-3 */
+
+.about-section > h1{
+    font-size: 22px;
+}
 }
